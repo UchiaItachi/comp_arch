@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="out_of_order_super_scalar_pipeline"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="out_of_order_super_scalar_pipeline">
+				<Option output="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/out_of_order_super_scalar_pipeline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 out_of_order_super_scalar_pipeline"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="out_of_order_super_scalar_pipeline/fast">
+				<Option output="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/out_of_order_super_scalar_pipeline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 out_of_order_super_scalar_pipeline/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/exeq.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/exeq.h">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/pipeline.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/pipeline.h">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rat.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rat.h">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rest.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rest.h">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rob.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rob.h">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/sim.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/trace.h">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/utils.h">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

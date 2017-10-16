@@ -1,0 +1,4 @@
+/home/itachi/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug
