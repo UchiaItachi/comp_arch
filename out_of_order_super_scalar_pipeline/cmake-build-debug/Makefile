@@ -123,6 +123,60 @@ out_of_order_super_scalar_pipeline/fast:
 	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/build
 .PHONY : out_of_order_super_scalar_pipeline/fast
 
+broadcast_stage.o: broadcast_stage.cpp.o
+
+.PHONY : broadcast_stage.o
+
+# target to build an object file
+broadcast_stage.cpp.o:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o
+.PHONY : broadcast_stage.cpp.o
+
+broadcast_stage.i: broadcast_stage.cpp.i
+
+.PHONY : broadcast_stage.i
+
+# target to preprocess a source file
+broadcast_stage.cpp.i:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.i
+.PHONY : broadcast_stage.cpp.i
+
+broadcast_stage.s: broadcast_stage.cpp.s
+
+.PHONY : broadcast_stage.s
+
+# target to generate assembly for a file
+broadcast_stage.cpp.s:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.s
+.PHONY : broadcast_stage.cpp.s
+
+commit_stage.o: commit_stage.cpp.o
+
+.PHONY : commit_stage.o
+
+# target to build an object file
+commit_stage.cpp.o:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o
+.PHONY : commit_stage.cpp.o
+
+commit_stage.i: commit_stage.cpp.i
+
+.PHONY : commit_stage.i
+
+# target to preprocess a source file
+commit_stage.cpp.i:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.i
+.PHONY : commit_stage.cpp.i
+
+commit_stage.s: commit_stage.cpp.s
+
+.PHONY : commit_stage.s
+
+# target to generate assembly for a file
+commit_stage.cpp.s:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.s
+.PHONY : commit_stage.cpp.s
+
 exeq.o: exeq.cpp.o
 
 .PHONY : exeq.o
@@ -204,6 +258,33 @@ rat.cpp.s:
 	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/rat.cpp.s
 .PHONY : rat.cpp.s
 
+rename_stage.o: rename_stage.cpp.o
+
+.PHONY : rename_stage.o
+
+# target to build an object file
+rename_stage.cpp.o:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o
+.PHONY : rename_stage.cpp.o
+
+rename_stage.i: rename_stage.cpp.i
+
+.PHONY : rename_stage.i
+
+# target to preprocess a source file
+rename_stage.cpp.i:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.i
+.PHONY : rename_stage.cpp.i
+
+rename_stage.s: rename_stage.cpp.s
+
+.PHONY : rename_stage.s
+
+# target to generate assembly for a file
+rename_stage.cpp.s:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.s
+.PHONY : rename_stage.cpp.s
+
 rest.o: rest.cpp.o
 
 .PHONY : rest.o
@@ -258,6 +339,33 @@ rob.cpp.s:
 	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/rob.cpp.s
 .PHONY : rob.cpp.s
 
+schedule_stage.o: schedule_stage.cpp.o
+
+.PHONY : schedule_stage.o
+
+# target to build an object file
+schedule_stage.cpp.o:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o
+.PHONY : schedule_stage.cpp.o
+
+schedule_stage.i: schedule_stage.cpp.i
+
+.PHONY : schedule_stage.i
+
+# target to preprocess a source file
+schedule_stage.cpp.i:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.i
+.PHONY : schedule_stage.cpp.i
+
+schedule_stage.s: schedule_stage.cpp.s
+
+.PHONY : schedule_stage.s
+
+# target to generate assembly for a file
+schedule_stage.cpp.s:
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.s
+.PHONY : schedule_stage.cpp.s
+
 sim.o: sim.cpp.o
 
 .PHONY : sim.o
@@ -294,6 +402,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... out_of_order_super_scalar_pipeline"
+	@echo "... broadcast_stage.o"
+	@echo "... broadcast_stage.i"
+	@echo "... broadcast_stage.s"
+	@echo "... commit_stage.o"
+	@echo "... commit_stage.i"
+	@echo "... commit_stage.s"
 	@echo "... exeq.o"
 	@echo "... exeq.i"
 	@echo "... exeq.s"
@@ -303,12 +417,18 @@ help:
 	@echo "... rat.o"
 	@echo "... rat.i"
 	@echo "... rat.s"
+	@echo "... rename_stage.o"
+	@echo "... rename_stage.i"
+	@echo "... rename_stage.s"
 	@echo "... rest.o"
 	@echo "... rest.i"
 	@echo "... rest.s"
 	@echo "... rob.o"
 	@echo "... rob.i"
 	@echo "... rob.s"
+	@echo "... schedule_stage.o"
+	@echo "... schedule_stage.i"
+	@echo "... schedule_stage.s"
 	@echo "... sim.o"
 	@echo "... sim.i"
 	@echo "... sim.s"

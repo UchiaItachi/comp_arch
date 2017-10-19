@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/broadcast_stage.cpp
+pipeline.h
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/pipeline.h
+
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/commit_stage.cpp
+pipeline.h
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/pipeline.h
+
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/exeq.cpp
 stdio.h
 -
@@ -13,6 +21,8 @@ assert.h
 -
 exeq.h
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/exeq.h
+utils.h
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/utils.h
 
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/exeq.h
 inttypes.h
@@ -68,6 +78,12 @@ cstdlib
 utils.h
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/utils.h
 
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rename_stage.cpp
+pipeline.h
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/pipeline.h
+utils.h
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/utils.h
+
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rest.cpp
 stdio.h
 -
@@ -93,6 +109,8 @@ stdio.h
 -
 assert.h
 -
+pipeline.h
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/pipeline.h
 rob.h
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rob.h
 
@@ -105,8 +123,18 @@ trace.h
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/trace.h
 cstdlib
 -
+map
+-
+set
+-
 utils.h
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/utils.h
+
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/schedule_stage.cpp
+pipeline.h
+/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/pipeline.h
+map
+-
 
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/sim.cpp
 iostream
@@ -134,5 +162,7 @@ inttypes.h
 
 /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/utils.h
 iostream
+-
+sstream
 -
 

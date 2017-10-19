@@ -9,9 +9,15 @@
 
 #define MAX_REST_ENTRIES 256
 
-
 typedef struct REST_Entry_Struct
 {
+  REST_Entry_Struct()
+    : valid(false)
+    , scheduled(false)
+    , inst()
+  {
+  }
+
   bool valid;
   bool scheduled;
   Inst_Info inst;

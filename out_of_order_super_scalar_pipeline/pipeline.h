@@ -16,9 +16,11 @@
 #define MAX_PIPE_WIDTH 8
 #define MAX_BROADCASTS 256
 
-/*********************************************************************
-* Pipeline Class & Internal Structures
-**********************************************************************/
+extern int32_t PIPE_WIDTH;
+extern int32_t SCHED_POLICY;
+extern int32_t LOAD_EXE_CYCLES;
+extern int32_t NUM_REST_ENTRIES;
+extern int32_t NUM_ROB_ENTRIES;
 
 // Pipeline Latches 
 typedef struct Pipe_Latch_Struct
@@ -60,7 +62,14 @@ void pipe_cycle_schedule(Pipeline *p);     // out of reservation station
 void pipe_cycle_exe(Pipeline *p);          // execute (multi-cycle?)
 void pipe_cycle_broadcast(Pipeline *p);    // broadcast and update ROB
 void pipe_cycle_commit(Pipeline *p);       // commit
+void pipe_fetch_inst(Pipeline *p, Pipe_Latch *fe_latch);
 
+void stall_all_fetch_stages(Pipeline *p);
+void stall_all_decode_stages(Pipeline *p);
+void stall_all_schedule_stages(Pipeline *p);
+void resume_all_fetch_stages(Pipeline *p);
+void resume_all_decode_stages(Pipeline *p);
+bool are_all_decode_stages_stalled(Pipeline *p);
 void pipe_print_state(Pipeline *p);        // Print Pipeline state
 
 #endif

@@ -3,11 +3,13 @@
 
 #include "exeq.h"
 
+#include "utils.h"
+
 // Init function initializes the EXEQ
 EXEQ *EXEQ_init(void)
 {
   int ii;
-  EXEQ *t = (EXEQ *) calloc(1, sizeof(EXEQ));
+  EXEQ *t = (EXEQ *)calloc(1, sizeof(EXEQ));
   for (ii = 0; ii < MAX_EXEQ_ENTRIES; ii++)
   {
     t->EXEQ_Entries[ii].valid = false;
@@ -24,7 +26,7 @@ void EXEQ_print_state(EXEQ *t)
   for (ii = 0; ii < MAX_EXEQ_ENTRIES; ii++)
   {
     printf("%5d ::  %d ", ii, t->EXEQ_Entries[ii].valid);
-    printf("%5d \t", (int) t->EXEQ_Entries[ii].inst.inst_num);
+    printf("%5d \t", (int)t->EXEQ_Entries[ii].inst.inst_num);
     printf("%5d \n", t->EXEQ_Entries[ii].inst.exe_wait_cycles);
   }
   printf("\n");
@@ -65,7 +67,7 @@ void EXEQ_insert(EXEQ *t, Inst_Info inst)
     }
   }
 
-  printf("ERROR: Trying to install in full EXEQ. Dying...\n");
+  utils::throw_exception("ERROR: Trying to install in full EXEQ. Dying...\n");
   exit(-1);
 }
 
@@ -106,7 +108,7 @@ Inst_Info EXEQ_remove(EXEQ *t)
     }
   }
 
-  printf("ERROR: Trying to remove entry from empty EXEQ. Dying...\n");
+  utils::throw_exception("ERROR: Trying to remove entry from empty EXEQ. Dying...\n");
   exit(-1);
 
   return retval;

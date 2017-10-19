@@ -5,6 +5,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/out_of_order_super_scalar_pipeline.dir/sim.cpp.o"
   "CMakeFiles/out_of_order_super_scalar_pipeline.dir/pipeline.cpp.o"
   "CMakeFiles/out_of_order_super_scalar_pipeline.dir/exeq.cpp.o"
+  "CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o"
+  "CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o"
+  "CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o"
+  "CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o"
   "out_of_order_super_scalar_pipeline.pdb"
   "out_of_order_super_scalar_pipeline"
 )

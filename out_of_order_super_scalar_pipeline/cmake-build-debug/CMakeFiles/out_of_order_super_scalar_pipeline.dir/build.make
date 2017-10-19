@@ -201,6 +201,102 @@ CMakeFiles/out_of_order_super_scalar_pipeline.dir/exeq.cpp.o.provides: CMakeFile
 CMakeFiles/out_of_order_super_scalar_pipeline.dir/exeq.cpp.o.provides.build: CMakeFiles/out_of_order_super_scalar_pipeline.dir/exeq.cpp.o
 
 
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o: CMakeFiles/out_of_order_super_scalar_pipeline.dir/flags.make
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o: ../rename_stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o -c /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rename_stage.cpp
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rename_stage.cpp > CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.i
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rename_stage.cpp -o CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.s
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o.requires:
+
+.PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o.requires
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o.provides: CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o.requires
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o.provides.build
+.PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o.provides
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o.provides.build: CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o
+
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o: CMakeFiles/out_of_order_super_scalar_pipeline.dir/flags.make
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o: ../schedule_stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o -c /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/schedule_stage.cpp
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/schedule_stage.cpp > CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.i
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/schedule_stage.cpp -o CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.s
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o.requires:
+
+.PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o.requires
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o.provides: CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o.requires
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o.provides.build
+.PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o.provides
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o.provides.build: CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o
+
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o: CMakeFiles/out_of_order_super_scalar_pipeline.dir/flags.make
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o: ../broadcast_stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o -c /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/broadcast_stage.cpp
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/broadcast_stage.cpp > CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.i
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/broadcast_stage.cpp -o CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.s
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o.requires:
+
+.PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o.requires
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o.provides: CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o.requires
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o.provides.build
+.PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o.provides
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o.provides.build: CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o
+
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o: CMakeFiles/out_of_order_super_scalar_pipeline.dir/flags.make
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o: ../commit_stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o -c /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/commit_stage.cpp
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/commit_stage.cpp > CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.i
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/commit_stage.cpp -o CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.s
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o.requires:
+
+.PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o.requires
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o.provides: CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o.requires
+	$(MAKE) -f CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o.provides.build
+.PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o.provides
+
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o.provides.build: CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o
+
+
 # Object files for target out_of_order_super_scalar_pipeline
 out_of_order_super_scalar_pipeline_OBJECTS = \
 "CMakeFiles/out_of_order_super_scalar_pipeline.dir/rat.cpp.o" \
@@ -208,7 +304,11 @@ out_of_order_super_scalar_pipeline_OBJECTS = \
 "CMakeFiles/out_of_order_super_scalar_pipeline.dir/rob.cpp.o" \
 "CMakeFiles/out_of_order_super_scalar_pipeline.dir/sim.cpp.o" \
 "CMakeFiles/out_of_order_super_scalar_pipeline.dir/pipeline.cpp.o" \
-"CMakeFiles/out_of_order_super_scalar_pipeline.dir/exeq.cpp.o"
+"CMakeFiles/out_of_order_super_scalar_pipeline.dir/exeq.cpp.o" \
+"CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o" \
+"CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o" \
+"CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o" \
+"CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o"
 
 # External object files for target out_of_order_super_scalar_pipeline
 out_of_order_super_scalar_pipeline_EXTERNAL_OBJECTS =
@@ -219,9 +319,13 @@ out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipelin
 out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/sim.cpp.o
 out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/pipeline.cpp.o
 out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/exeq.cpp.o
+out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o
+out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o
+out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o
+out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o
 out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/build.make
 out_of_order_super_scalar_pipeline: CMakeFiles/out_of_order_super_scalar_pipeline.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable out_of_order_super_scalar_pipeline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable out_of_order_super_scalar_pipeline"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/out_of_order_super_scalar_pipeline.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +339,10 @@ CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires: CMakeFiles/out_of_or
 CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires: CMakeFiles/out_of_order_super_scalar_pipeline.dir/sim.cpp.o.requires
 CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires: CMakeFiles/out_of_order_super_scalar_pipeline.dir/pipeline.cpp.o.requires
 CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires: CMakeFiles/out_of_order_super_scalar_pipeline.dir/exeq.cpp.o.requires
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires: CMakeFiles/out_of_order_super_scalar_pipeline.dir/rename_stage.cpp.o.requires
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires: CMakeFiles/out_of_order_super_scalar_pipeline.dir/schedule_stage.cpp.o.requires
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires: CMakeFiles/out_of_order_super_scalar_pipeline.dir/broadcast_stage.cpp.o.requires
+CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires: CMakeFiles/out_of_order_super_scalar_pipeline.dir/commit_stage.cpp.o.requires
 
 .PHONY : CMakeFiles/out_of_order_super_scalar_pipeline.dir/requires
 

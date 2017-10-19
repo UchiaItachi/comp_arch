@@ -142,6 +142,7 @@ int main(int argc, char *argv[])
   }
   catch (std::exception& e)
   {
+    std::cout << "Caught exception  --------------- \n";
     // ------- Print Statistics------------------------------------------
     print_stats();
     fclose(tr_file);
@@ -192,6 +193,7 @@ void check_heartbeat(void)
   // check for deadlock
   if (last_hbeat_inst == pipeline->stat_retired_inst)
   {
+    std::cout << "Last executed ins = " << pipeline->stat_retired_inst << " last cycle = " << pipeline->stat_num_cycle << std::endl;
     printf("No committed instructions in %u cycles.\n", HEARTBEAT_CYCLES);
     die_message("Pipeline is Deadlocked. Dying\n");
   }

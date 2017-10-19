@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/broadcast_stage.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/commit_stage.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
 		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/exeq.cpp">
 			<Option target="out_of_order_super_scalar_pipeline"/>
 		</Unit>
@@ -102,6 +108,9 @@
 		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rat.h">
 			<Option target="out_of_order_super_scalar_pipeline"/>
 		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rename_stage.cpp">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
 		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rest.cpp">
 			<Option target="out_of_order_super_scalar_pipeline"/>
 		</Unit>
@@ -112,6 +121,9 @@
 			<Option target="out_of_order_super_scalar_pipeline"/>
 		</Unit>
 		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/rob.h">
+			<Option target="out_of_order_super_scalar_pipeline"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/schedule_stage.cpp">
 			<Option target="out_of_order_super_scalar_pipeline"/>
 		</Unit>
 		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/out_of_order_super_scalar_pipeline/sim.cpp">

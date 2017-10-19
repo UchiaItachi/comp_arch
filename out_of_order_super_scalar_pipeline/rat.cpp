@@ -8,7 +8,7 @@
 RAT *RAT_init(void)
 {
   int ii;
-  RAT *t = (RAT *) calloc(1, sizeof(RAT));
+  RAT *t = (RAT *)calloc(1, sizeof(RAT));
   for (ii = 0; ii < MAX_ARF_REGS; ii++)
   {
     t->RAT_Entries[ii].valid = false;
@@ -25,12 +25,10 @@ void RAT_print_state(RAT *t)
   for (ii = 0; ii < MAX_ARF_REGS; ii++)
   {
     printf("%5d ::  %d \t\t", ii, t->RAT_Entries[ii].valid);
-    printf("%5d \n", (int) t->RAT_Entries[ii].prf_id);
+    printf("%5d \n", (int)t->RAT_Entries[ii].prf_id);
   }
   printf("\n");
 }
-
-//------- DO NOT CHANGE THE CODE ABOVE THIS LINE -----------
 
 // For source registers, we need RAT to provide renamed reg
 int RAT_get_remap(RAT *t, int arf_id)
