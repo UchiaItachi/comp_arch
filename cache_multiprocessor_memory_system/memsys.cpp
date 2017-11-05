@@ -41,9 +41,8 @@ uint64_t memsys_L1_access(Memsys *sys, Addr lineaddr, Flag is_write, uint32_t co
 
     delay += memsys_L2_access(sys, lineaddr, is_writeback, core_id);
     cache_install(c, lineaddr, is_write, core_id);
-
     // ------------------------------ Write Back ----------------------------------------
-    if (isVictimDirty(c) && (!isICache))
+    if (isVictimDirty(c))// && (!isICache))
     {
       is_writeback = TRUE; // ignore the delay
       memsys_L2_access(sys, c->last_evicted_line.tag, is_writeback, c->last_evicted_line.core_id);
@@ -59,7 +58,7 @@ uint64_t memsys_L1_access(Memsys *sys, Addr lineaddr, Flag is_write, uint32_t co
 
 uint64_t memsys_L2_access(Memsys *sys, Addr lineaddr, Flag is_writeback, uint32_t core_id)
 {
-  uint64_t delay = L2CACHE_HIT_LATENCY;
+  uint64_t delay = 0;
   Flag is_write = FALSE;
 
   Cache* c = sys->l2cache;
@@ -73,13 +72,15 @@ uint64_t memsys_L2_access(Memsys *sys, Addr lineaddr, Flag is_writeback, uint32_
   {
     // ------------------------------ Write Back ----------------------------------------
     is_write = TRUE;
+    delay += L2CACHE_HIT_LATENCY;
     Flag l2_wb_outcome = cache_access(c, lineaddr, is_write, core_id);
     if (MISS == l2_wb_outcome)
     {
+      delay += dram_access(sys->dram, lineaddr, false);
       cache_install(c, lineaddr, is_write, core_id);  // TODO: is_write or is_read ??
       if (isVictimDirty(c))
       {
-        dram_access(sys->dram, c->last_evicted_line.tag, is_write);
+        delay += dram_access(sys->dram, c->last_evicted_line.tag, is_write);
         flushVictim(c);
       }
     }
@@ -93,7 +94,6 @@ uint64_t memsys_L2_access(Memsys *sys, Addr lineaddr, Flag is_writeback, uint32_
     {
       delay += dram_access(sys->dram, lineaddr, false);  // TODO: again DRAM write or read ?
       cache_install(c, lineaddr, false, core_id);        // TODO: miss in L1, read or write in L2 ?
-
       if (isVictimDirty(c))
       {
         // ------------------------------ Write Back ----------------------------------------
@@ -103,6 +103,10 @@ uint64_t memsys_L2_access(Memsys *sys, Addr lineaddr, Flag is_writeback, uint32_
     }
   }
 
+  if (is_writeback)
+  {
+    delay = 0;
+  }
   return delay;
 }
 
@@ -115,21 +119,18 @@ uint64_t memsys_access_modeBC(Memsys *sys, Addr lineaddr, Access_Type type, uint
 
   if (type == ACCESS_TYPE_IFETCH)
   {
-    sys->stat_ifetch_access += 1;
     delay += memsys_L1_access(sys, lineaddr, false, core_id, true);
   }
 
 
   if (type == ACCESS_TYPE_LOAD)
   {
-    sys->stat_load_access += 1;
     delay += memsys_L1_access(sys, lineaddr, false, core_id, false);
   }
 
 
   if (type == ACCESS_TYPE_STORE)
   {
-    sys->stat_store_access += 1;
     delay += memsys_L1_access(sys, lineaddr, true, core_id, false);
   }
 
