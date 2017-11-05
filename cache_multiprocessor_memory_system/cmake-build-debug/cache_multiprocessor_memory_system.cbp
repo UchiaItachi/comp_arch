@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cache_multiprocessor_memory_system"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cache_multiprocessor_memory_system">
+				<Option output="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/cache_multiprocessor_memory_system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 cache_multiprocessor_memory_system"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cache_multiprocessor_memory_system/fast">
+				<Option output="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/cache_multiprocessor_memory_system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 cache_multiprocessor_memory_system/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cache.cpp">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/cache.h">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/core.cpp">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/core.h">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/dram.cpp">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/dram.h">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/memsys.cpp">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/memsys.h">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/sim.cpp">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/types.h">
+			<Option target="cache_multiprocessor_memory_system"/>
+		</Unit>
+		<Unit filename="/home/itachi/repositories/gatech/fall_2017/ece6100_aca/comp_arch/cache_multiprocessor_memory_system/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
